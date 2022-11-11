@@ -2,11 +2,11 @@
 ## My Final Project for Harvard's CS50x Introduction to Computer Science
 #### Video Demo: https://youtu.be/C4anVtuN54k
 #### Features
-*** [Flask](https://flask.palletsprojects.com/en/2.2.x/)
-*** [MySQL Connector](https://dev.mysql.com/doc/connector-python/en/)
-*** [Flask-MySQLdb](https://flask-mysqldb.readthedocs.io/en/latest/)
-*** [Jinja2](https://svn.python.org/projects/external/Jinja-2.1.1/docs/_build/html/index.html)
-*** [Pillow](https://pillow.readthedocs.io/en/stable/)
+***[Flask](https://flask.palletsprojects.com/en/2.2.x/)
+***[MySQL Connector](https://dev.mysql.com/doc/connector-python/en/)
+***[Flask-MySQLdb](https://flask-mysqldb.readthedocs.io/en/latest/)
+***[Jinja2](https://svn.python.org/projects/external/Jinja-2.1.1/docs/_build/html/index.html)
+***[Pillow](https://pillow.readthedocs.io/en/stable/)
 #### Description:
 This web application helps users to add captions to images ('png', 'jpg', 'jpeg', 'gif').  
 This web application runs on Flask and is connected to MySQL database via MySQL Connector and Flask-MySQLdb. The file details are stored in cs50file.db.  
