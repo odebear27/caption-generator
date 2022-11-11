@@ -26,7 +26,7 @@ Upon pressing the `Generate` button, a temp image will appear with the captions 
 ![generatedimage](https://user-images.githubusercontent.com/101394672/201253144-9a1f4866-9344-4155-85b1-b6812b004ffc.png)
 
 The generated image can be found in the `generated` folder in the directory.  
-![generated_folder](https://user-images.githubusercontent.com/101394672/201253275-763b368c-d84c-48d8-a224-bb204f929e5f.png)
+![generated_folder](https://user-images.githubusercontent.com/101394672/201253275-763b368c-d84c-48d8-a224-bb204f929e5f.png | width=100)
 
 The details of the file (fileid, filename, filelocation, generatedlocation) will be saved in cs50file database in MySQL.  
 ![mysql](https://user-images.githubusercontent.com/101394672/201253406-e69b5e7f-dec8-4a1e-b9f5-4d477aef83d1.png)
