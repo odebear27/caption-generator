@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Generate Caption
+{% endblock %}
+
+{% block main %}
+<div class="item">
+    <form action="/generatecaption" method="post">
+        <label for="font">Select font:</label><br>
+        <select name="font" id="font">
+            <option value="arial.ttf">Arial</option>
+            <option value="cookiemonster.ttf">Cookie Monster</option>
+            <option value="stylishcalligraphy.ttf">Stylish Calligraphy</option>
+        </select>
+        <br><br>
+        <label for="topcaption">Top Caption:</label><br>
+        <input id="topcaption" name="topcaption" type="text"><br><br>
+        <label for="bottomcaption">Bottom Caption:</label><br>
+        <input id="bottomcaption" name="bottomcaption" type="text"><br><br>
+        <button class="btn-block" type="submit">Generate</button>
+    </form>
+</div>
+{% endblock %}

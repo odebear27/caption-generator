@@ -1,0 +1,93 @@
+html, body {
+  min-height: 100%;
+}
+body, div, form, input, select, p { 
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  color: #666;
+  line-height: 22px;
+}
+h1 {
+  position: absolute;
+  margin: 0;
+  font-size: 36px;
+  color: #fff;
+  z-index: 2;
+}
+
+form {
+  width: 97%;
+  padding: 20px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 0 20px 0 #333;
+}
+.header {
+  position: relative;
+  height: 210px;
+  background-image: url("https://scx1.b-cdn.net/csz/news/800/2017/theoreticala.jpg");
+  /* background-image: url('./week_10_emoji/banner/banner1.jpg'); */
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-attachment: fixed;
+  /* background-size: 100% 100%; */
+}
+
+input, select {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+input {
+  width: calc(100% - 10px);
+  padding: 5px;
+}
+select {
+  width: 100%;
+  padding: 7px 0;
+  background: transparent;
+}
+
+.item:hover p, .item:hover i {
+  color: #333;
+}
+.item input:hover, .item select:hover {
+  border: 1px solid transparent;
+  box-shadow: 0 0 6px 0 #333;
+  color: #333;
+}
+.item {
+  position: relative;
+  margin: 10px 0;
+}
+
+.item i {
+  right: 1%;
+  top: 30px;
+  z-index: 1;
+}
+
+.btn-block {
+  margin-top: 10px;
+  text-align: center;
+}
+button {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px; 
+  background: #444;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover {
+  background: #666;
+}
+
