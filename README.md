@@ -32,4 +32,4 @@ The details of the file (fileid, filename, filelocation, generatedlocation) will
 ![mysql](https://user-images.githubusercontent.com/101394672/201253406-e69b5e7f-dec8-4a1e-b9f5-4d477aef83d1.png)
 
 #### Improvements in the Future:
-The user could be given the opton to choose what colour and the exact position where he wants the caption to be.
+The user could be given the option to choose what colour and the exact position where he wants the caption to be.
